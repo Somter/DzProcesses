@@ -13,7 +13,7 @@ namespace WpfApp5
         public MainWindow()
         {
             InitializeComponent();
-            timer = new DispatcherTimer();   
+            timer = new DispatcherTimer();    
             timer.Tick += Update_Tick;
             timer.Interval = TimeSpan.FromSeconds(2);
             timer.Start();
